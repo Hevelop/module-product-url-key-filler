@@ -1,0 +1,15 @@
+{
+  "name": "hevelop/product-url-key-filler",
+  "type": "magento2-module",
+  "version": "0.2.0",
+  "require": {
+    "php": "^7.0",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Hevelop\\ProductUrlKeyFiller\\": ""
+    }
+  }
+}
